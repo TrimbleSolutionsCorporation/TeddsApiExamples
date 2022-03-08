@@ -1,7 +1,7 @@
-﻿//To minimize the steps required to run this example it is set up to use dynamic types
-//Normally you would want to use strongly typed references in order to get the benefit of visual studio features such as intellisense
-//To do this change #undef to #def and reference Tedds.TeddsCalcIA which is located in the Tedds program files directory
-#undef USE_TEDDS_CALC_IA_REF
+﻿//Normally you would want to use strongly typed references in order to get the benefit of visual studio features such as intellisense
+//To simplify the steps required to run this example it can use dynamic types, this also removes the dependency on the TeklaTeddsAPI nuget
+//To do this remove the following line from the Tedds.ApiExample.csproj file
+//<DefineConstants>$(DefineConstants);USE_TEDDS_CALC_IA_REF</DefineConstants>
 
 using System;
 
