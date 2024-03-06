@@ -10,7 +10,7 @@
   </PropertyGroup>
 
   <ItemGroup Condition="$(DefineConstants.Contains('USE_TEDDS_CALC_IA_REF'))">
-    <PackageReference Include="TeklaTeddsAPI" Version="24.1.0" />
+    <PackageReference Include="TeklaTeddsAPI" Version="26.0.0" />
   </ItemGroup>
 
   <ItemGroup>
